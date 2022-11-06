@@ -1,0 +1,19 @@
+{
+    "Switches": [
+        {
+            "ip" : "192.168.56.12",
+            "name" : "Switch1",
+            "config" : "config12p.xsf"
+        },
+        {
+            "ip" : "192.168.56.24",
+            "name" : "Switch2",
+            "config" : "config24p.xsf"
+        },
+        {
+            "ip" : "192.168.56.48",
+            "name" : "Switch3",
+            "config" : "config48p.xsf"
+        }
+    ]
+}
