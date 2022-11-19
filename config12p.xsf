@@ -186,7 +186,7 @@ configure ports 3 debounce time 0
 #
 # Module snmpMaster configuration.
 #
-configure snmpv3 engine-id 03:08:00:27:b6:e4:88
+configure snmpv3 engine-id "engine id"
 
 #
 # Module stp configuration.
