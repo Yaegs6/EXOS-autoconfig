@@ -1,17 +1,17 @@
 {
     "Switches": [
         {
-            "ip" : "192.168.56.12",
+            "ip" : "your switch ip",
             "name" : "Switch1",
             "config" : "config12p.xsf"
         },
         {
-            "ip" : "192.168.56.24",
+            "ip" : "your switch ip",
             "name" : "Switch2",
             "config" : "config24p.xsf"
         },
         {
-            "ip" : "192.168.56.48",
+            "ip" : "your switch ip",
             "name" : "Switch3",
             "config" : "config48p.xsf"
         }
