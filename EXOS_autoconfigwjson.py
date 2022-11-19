@@ -153,7 +153,7 @@ def sendcmd(cmd, jsonrpc):
 def main():
 	global client
 	# open the json file
-	with open('C:/Users/yaege/OneDrive/Desktop/Python_Scripts/EXOS_autoconfig/configs.json') as json_file:
+	with open('filepath to your json file') as json_file: # put your json filepath here
 		data = json.load(json_file)
 
 		# loop through switches in json file 
@@ -171,7 +171,7 @@ def main():
 			connectionmessage(ip, jsonrpc)
 
 			# this command gets the .xsf script from the tftpd server and loads it on the switch
-			getconfig = 'tftp get 192.168.56.1 vr VR-Mgmt ' + config
+			getconfig = 'tftp get "your tftp server ip here" vr VR-Mgmt ' + config 	# where you put your tftp server ip
 			# this command runs the .xsf script on the switch after its been uploaded								
 			loadscript = 'load script ' + config													
 
