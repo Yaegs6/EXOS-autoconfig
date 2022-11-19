@@ -192,7 +192,7 @@ configure nodealias ports 1 maxentries 8192
 #
 # Module snmpMaster configuration.
 #
-configure snmpv3 engine-id 03:08:00:27:a3:6e:7d
+configure snmpv3 engine-id "engine id"
 
 #
 # Module stp configuration.
