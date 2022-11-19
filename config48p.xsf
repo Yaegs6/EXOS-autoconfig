@@ -11,9 +11,9 @@ configure snmp sysContact "support@extremenetworks.com, +1 888 257 3000"
 #
 # Module vlan configuration.
 #
-configure vlan Default ipaddress 192.168.56.12 255.255.255.0
+configure vlan Default ipaddress "your ip" 255.255.255.0
 enable ipforwarding vlan Default
-configure vlan Mgmt ipaddress 192.168.56.12 255.255.255.0
+configure vlan Mgmt ipaddress "your ip" 255.255.255.0
 
 #
 # Module mcmgr configuration.
