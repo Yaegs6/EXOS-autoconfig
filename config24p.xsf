@@ -17,7 +17,7 @@ configure vr VR-Default delete ports 1-3
 configure vr VR-Default add ports 1
 configure vlan default delete ports 2-3
 configure vlan Default add ports 1 untagged  
-configure vlan Mgmt ipaddress 192.168.56.13 255.255.255.0
+configure vlan Mgmt ipaddress "your ip" 255.255.255.0
 
 #
 # Module mcmgr configuration.
